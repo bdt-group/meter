@@ -1,0 +1,17 @@
+{application, meter,
+ [{description, "Erlang metrics"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {mod, {meter, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    yval,
+    cowboy,
+    prometheus,
+    prometheus_cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+  {links, []}
+ ]}.

@@ -1,0 +1,37 @@
+{"1.2.0",
+[{<<"accept">>,
+  {git,"https://github.com/bdt-group/accept",
+       {ref,"dee42ece823fb9a56cb8853138e327372b7fea5f"}},
+  2},
+ {<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.8.0">>},0},
+ {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.9.1">>},1},
+ {<<"prometheus">>,
+  {git,"https://github.com/deadtrickster/prometheus.erl",
+       {ref,"b78e17eda43c7fcb2c05f76c7dd80db969cd8479"}},
+  0},
+ {<<"prometheus_cowboy">>,
+  {git,"https://github.com/bdt-group/prometheus-cowboy",
+       {ref,"5557b5e2479e4e5f502bac72a028fa2f66099fcd"}},
+  0},
+ {<<"prometheus_httpd">>,
+  {git,"https://github.com/bdt-group/prometheus-httpd",
+       {ref,"b082fb7372097e08e71e8dc8853f17c40a5d6901"}},
+  1},
+ {<<"quantile_estimator">>,{pkg,<<"quantile_estimator">>,<<"0.2.1">>},1},
+ {<<"ranch">>,{pkg,<<"ranch">>,<<"1.7.1">>},1},
+ {<<"yval">>,
+  {git,"https://github.com/zinid/yval",
+       {ref,"8da69d015661c7501c39c80a69cd9ecdb2f70bb3"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"cowboy">>, <<"F3DC62E35797ECD9AC1B50DB74611193C29815401E53BAC9A5C0577BD7BC667D">>},
+ {<<"cowlib">>, <<"61A6C7C50CF07FDD24B2F45B89500BB93B6686579B069A89F88CB211E1125C78">>},
+ {<<"quantile_estimator">>, <<"EF50A361F11B5F26B5F16D0696E46A9E4661756492C981F7B2229EF42FF1CD15">>},
+ {<<"ranch">>, <<"6B1FAB51B49196860B733A49C07604465A47BDB78AA10C1C16A3D199F7F8C881">>}]},
+{pkg_hash_ext,[
+ {<<"cowboy">>, <<"4643E4FBA74AC96D4D152C75803DE6FAD0B3FA5DF354C71AFDD6CBEEB15FAC8A">>},
+ {<<"cowlib">>, <<"E4175DC240A70D996156160891E1C62238EDE1729E45740BDD38064DAD476170">>},
+ {<<"quantile_estimator">>, <<"282A8A323CA2A845C9E6F787D166348F776C1D4A41EDE63046D72D422E3DA946">>},
+ {<<"ranch">>, <<"451D8527787DF716D99DC36162FCA05934915DB0B6141BBDAC2EA8D3C7AFC7D7">>}]}
+].
